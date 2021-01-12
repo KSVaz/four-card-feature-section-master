@@ -5,9 +5,6 @@ body {
 }
 
 header {
-    width: 500px;
-    height: 210px;
-    margin: auto;
     margin-top: 80px;
 }
 
@@ -17,21 +14,21 @@ h2 {
 }
 
 header p {
+    width: 45%;
     margin-top: 16px;
     color: hsl(229, 6%, 66%);
 }
 
 main {
-    margin-top: 15px;
+    margin-top: 65px;
 }
 
 .row {
-    width: 1110px;
-    margin: auto;
+    width: 77%;
+    margin: 0 auto;
 }
 
 #card1 {
-    width: 340px;
     height: 250px;
     border-top: 5px solid hsl(180, 62%, 55%);
     margin-bottom: 30px;
@@ -39,7 +36,6 @@ main {
 }
 
 #card2 {
-    width: 340px;
     height: 250px;
     border-top: 5px solid hsl(0, 78%, 62%);
     margin-bottom: 30px;
@@ -47,7 +43,6 @@ main {
 }
 
 #card3 {
-    width: 340px;
     height: 250px;
     border-top: 5px solid hsl(34, 97%, 64%);
     margin-bottom: 30px;
@@ -55,7 +50,6 @@ main {
 }
 
 #card4 {
-    width: 340px;
     height: 250px;
     border-top: 5px solid hsl(212, 86%, 64%);
     margin-bottom: 30px;
@@ -72,22 +66,24 @@ h5 {
     color: hsl(234, 12%, 34%);
 }
 
-@media (max-width: 376px) {
+@media (max-width: 416px) {
 
     header {
-        width: 340px;
-        padding: 20px;
+        /* width: 340px;
+        padding: 20px; */
         margin-bottom: 30px;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 22px;
         line-height: 40px;
     }
 
-    #card1, #card2, #card3, #card4 {
-        width: 290px;
-        margin-left: 25px;
+    header p {
+        font-size: 13px;
+        line-height: 22px;
+        width: 75%;
     }
     
 }
+
