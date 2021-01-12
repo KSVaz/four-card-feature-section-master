@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header {
+    width: 500px;
+    height: 210px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+h2 {
+    color: hsl(234, 12%, 34%);
+    line-height: 50px;
+}
+
+header p {
+    margin-top: 16px;
+    color: hsl(229, 6%, 66%);
+}
+
+main {
+    margin-top: 15px;
+}
+
+.row {
+    width: 1110px;
+    margin: auto;
+}
+
+#card1 {
+    width: 340px;
+    height: 250px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#card2 {
+    width: 340px;
+    height: 250px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#card3 {
+    width: 340px;
+    height: 250px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#card4 {
+    width: 340px;
+    height: 250px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+#card1 p, #card2 p, #card3 p, #card4 p {
+    color: hsl(229, 6%, 66%);
+    font-size: 13px;
+}
+
+h5 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+@media (max-width: 376px) {
+
+    header {
+        width: 340px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    #card1, #card2, #card3, #card4 {
+        width: 290px;
+        margin-left: 25px;
+    }
+    
+}
